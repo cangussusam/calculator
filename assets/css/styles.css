@@ -1,0 +1,104 @@
+body{
+    font-family: 'Arvo', serif;
+}
+
+.header{
+    background: black;
+}
+
+.header__title{
+    color: #fdfdfd;
+    padding: 1.5rem;
+    margin-left: 5%;
+    font-size: 2.5rem;
+}
+
+.calculator.container{
+
+    background: #DAFFEF;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8%;
+    padding: 2.5%;
+    margin: 2rem 35%;
+}
+
+.display__output{
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    text-align: right;
+    
+}
+
+.numbers{
+    margin-top: 3rem;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.number{
+
+    color: #191923;
+    background: #9DA39A;
+    border: 1px solid grey;
+    border-radius: 100%;
+    padding: 1.5rem 1.75rem;
+    margin: 0.25rem;
+
+}
+
+.number.num__key{
+    color: #fdfdfd;
+}
+
+.number:hover{
+    background-color: grey;
+}
+
+#clearAll{
+    padding: 1.25rem 1.3rem;
+}
+
+#clear{
+    padding: 1.25rem 1.65rem;
+}
+
+#plusOrMinus{
+    padding: 1.25rem 1.35rem 1.25rem 1.3rem; 
+    margin-right: 0.25rem;
+}
+
+.row__five{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#total{
+    padding: 1.5rem 4rem; 
+    
+}
+
+.footer{
+    background: black;
+    
+}
+
+.footer__logo{
+    width: 10%;
+    padding: 0.5rem;
+}
+
+.footer__paragraph{
+    color: #fdfdfd;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6%
+    
+}
